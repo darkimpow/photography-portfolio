@@ -31,7 +31,7 @@ const Portfolio = () => {
                        // onMouseLeave={mouseLeaveHandler}
                         initial={{ opacity: 0, y: '-80%' }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: '-80%' }}k
+                        exit={{ opacity: 0, y: '-80%' }}
                         transition={transition1}
                         className='flex flex-col lg:items-start'
                     >
