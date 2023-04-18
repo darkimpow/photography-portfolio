@@ -1,8 +1,12 @@
 import React from 'react';
 import NuaTwo from '../img/about/NuaTwo.jpg';
 import { Link } from 'react-router-dom';
+import { motion} from "framer-motion";
+import { transition1} from "../transitions";
+
 const About = () => {
-  return <section className='section'>
+  return (
+  <motion.section initial={{opacity: 0,y: '100%'}} animate={{opacity:1, y: 0}} exit={{opacity:0, y:'100%'}} transition={transition1} className='section'>
     <div className="container mx-auto h-full relative">
       {/* text & img wrapper */}
       <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
@@ -26,7 +30,8 @@ const About = () => {
         </div>
       </div>
     </div>
-  </section>;
+  </motion.section>
+);
 };
 
 export default About;
