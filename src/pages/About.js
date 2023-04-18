@@ -13,7 +13,7 @@ const About = () => {
         {/*text here*/}
         <div className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start '>
           <h1 className='h1'>About me</h1>
-          <p className='mb-12'>
+          <p className='mb-12 max-w-sm'>
             Lorem ipsum dolor sit amet, consectetur adipisicing el
             it. Animi dignissimos dolorum eius eligend
             i ipsa quaerat suscipit! Accusantium aliquid autem dolorum?
@@ -22,7 +22,7 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit
             . Animi aut, molestiae! Debitis ea maxime similique.
           </p>
-          <Link to={'/portfolio'}>View my world</Link>
+          <Link to={'/portfolio'} className='btn'>View my world</Link>
         </div>
       </div>
     </div>
