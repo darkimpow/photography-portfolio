@@ -14,11 +14,6 @@ const Socials = () => {
       </li>
       <li>
         <a href="" target='_blank'>
-          <ImTwitter />
-        </a>
-      </li>
-      <li>
-        <a href="" target='_blank'>
           <ImInstagram />
         </a>
       </li>
