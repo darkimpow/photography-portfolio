@@ -1,6 +1,6 @@
 import React from 'react';
 import Socials from "./Socials";
-import NuaLogo from "../img/header/NuaLogo.png";
+import TgBlack from "../img/header/TgBlack.png";
 import MobileNav from "./MobileNav";
 import { Link } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ const Header = () => {
     <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
       {/*logo placed here*/}
     <Link to={'/'} className='max-w-[200px]'>
-      <img src={NuaLogo} alt='picture' />
+      <img src={TgBlack} alt='picture' />
     </Link>
       {/*nav initially hidden - show onm desktop mode here*/}
     <div>
