@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return <header className='fixed w-full px-[30px]
   lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
-    <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
+    <div className="flex flex-col lg:flex-row lg:items-center w-full jus justify-between">
       {/*logo placed here*/}
-    <Link to={'/'} className='max-w-[200px]'>
-      <img src={TgBlack} alt='picture' />
+    <Link to={'/'} className='max-w-[250px]'>
+      <img className="w-52" src={TgBlack} alt='picture' />
     </Link>
       {/*nav initially hidden - show onm desktop mode here*/}
     <div>

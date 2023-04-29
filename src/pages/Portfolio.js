@@ -50,41 +50,10 @@ const Portfolio = () => {
                         </Link>
                     </motion.div>
                     {/* image grid */}
-                    <div
-                       // onMouseEnter={mouseEnterHandler}
-                       // onMouseLeave={mouseLeaveHandler}
-                        className='grid grid-cols-2 lg:gap-2'
-                    >
-                        {/* image */}
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
-                            <img
-                                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
-                                src={Image1}
-                                alt=''
-                            />
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
-                            <img
-                                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
-                                src={Image2}
-                                alt=''
-                            />
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
-                            <img
-                                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
-                                src={Image3}
-                                alt=''
-                            />
-                        </div>
-                        <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
-                            <img
-                                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
-                                src={Image4}
-                                alt=''
-                            />
-                        </div>
+                    <div>
+
                     </div>
+                    {/*image grid ends*/}
                 </div>
             </div>
         </motion.section>
