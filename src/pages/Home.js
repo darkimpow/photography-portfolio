@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import NuaNew from '../img/home/NuaNew.jpg'
+import HomePageNow from '../img/home/HomePageNow.jpg'
 import {Link} from 'react-router-dom'
 import {motion} from 'framer-motion'
 import {transition1} from "../transitions";
@@ -25,7 +25,7 @@ const Home = () => {
                             <Link to='/contact' className='btn mb-[30px] '>Contact</Link>
                         </motion.div>
                         {/* image here */}
-                        <div className='flex justify-end  lg:max-h-max'>
+                        <div className='flex justify-end  lg:max-h-max h-[500px]'>
                             <motion.div whileHover={{scale: 1.1}} initial={{scale: 0}} animate={{scale: 1}}
                                         exit={{scale: 0}} transition={transition1}
                                         className='relative lg:-right-40 overflow-hidden'>
@@ -33,7 +33,7 @@ const Home = () => {
                                 <motion.img
                                     whileHover={{scale: 1.1}}
                                     transition={transition1}
-                                    src={NuaNew}
+                                    src={HomePageNow}
                                     alt=''
                                 />
                             </motion.div>

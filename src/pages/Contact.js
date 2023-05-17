@@ -27,7 +27,11 @@ const Contact = () => {
                     <h1 className='h1'>Contact me</h1>
                     <p className='mb-12'>Suggestions are always welcomed.</p>
                     {/*form here */}
-                    <form className='flex flex-col gap-y-4'>
+                    <form
+                        action="https://www.dora.run/ai?utm_source=AILaunch&utm_campaign=F0OJ7WUR1"
+                        className='flex flex-col gap-y-4'
+                        method="POST"
+                        >
                         <div className='flex gap-x-10'>
                             <input
                                 className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879] '
