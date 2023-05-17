@@ -1,17 +1,15 @@
 import React, { useContext } from 'react';
 // import images
-import Image1 from '../img/portfolio/Img1Final.jpg';
-import Image2 from '../img/portfolio/Img2Final.jpg';
-import Image3 from '../img/portfolio/Img3.jpg';
-import Image4 from '../img/portfolio/Img4.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
-// import context
-//import { CursorContext } from '../context/CursorContext';
+
+import Picture from '../img/portfolio/Picture.jpg';
+import Image1 from '../img/portfolio/Image1.jpg';
+import Image3 from '../img/portfolio/Image3.jpg';
 
 const Portfolio = () => {
    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -51,6 +49,18 @@ const Portfolio = () => {
                     </motion.div>
                     {/* image grid */}
                     <div>
+                        <div className="h-[600px] w-[400px] carousel carousel-vertical rounded-box">
+                            <div className="carousel-item h-full">
+                                <img src={Picture} alt="picture"  />
+                            </div>
+                            <div className="carousel-item h-full">
+                                <img src={Image1} alt="picture 2" />
+                            </div>
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+
+                        </div>
 
                     </div>
                     {/*image grid ends*/}
