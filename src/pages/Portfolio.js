@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
-
+//Picture log here
 import Picture from '../img/portfolio/Picture.jpg';
 import Image1 from '../img/portfolio/Image1.jpg';
 import Image3 from '../img/portfolio/Image3.jpg';
@@ -50,12 +50,43 @@ const Portfolio = () => {
                     {/* image grid */}
                     <div>
                         <div className="h-[600px] w-[400px] carousel carousel-vertical rounded-box">
+                            {/*Picture 1*/}
                             <div className="carousel-item h-full">
                                 <img src={Picture} alt="picture"  />
                             </div>
+                            {/*Picture 2*/}
                             <div className="carousel-item h-full">
                                 <img src={Image1} alt="picture 2" />
                             </div>
+                            {/*Picture 3*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 4*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 5*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 6*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 7*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 8*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 9*/}
+                            <div className="carousel-item h-full">
+                                <img src={Image3} alt="picture 3" />
+                            </div>
+                            {/*Picture 10*/}
                             <div className="carousel-item h-full">
                                 <img src={Image3} alt="picture 3" />
                             </div>
