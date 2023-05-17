@@ -9,7 +9,15 @@ import { transition1 } from '../transitions';
 //Picture log here
 import Picture from '../img/portfolio/Picture.jpg';
 import Image1 from '../img/portfolio/Image1.jpg';
-import Image3 from '../img/portfolio/Image3.jpg';
+import Picture3 from '../img/portfolio/Picture3.jpg';
+import Picture4 from '../img/portfolio/Picture4.jpg';
+import Picture5 from '../img/portfolio/Picture5.jpg';
+import Picture6 from '../img/portfolio/Picture6.jpg';
+import Picture7 from '../img/portfolio/Picture7.jpg';
+import Picture8 from '../img/portfolio/Picture8.jpg';
+import Picture9 from '../img/portfolio/Picture9.jpg';
+import Picture10 from '../img/portfolio/Picture10.jpg';
+
 
 const Portfolio = () => {
    // const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -60,37 +68,36 @@ const Portfolio = () => {
                             </div>
                             {/*Picture 3*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture3} alt="picture 3" />
                             </div>
                             {/*Picture 4*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture4} alt="picture 4" />
                             </div>
                             {/*Picture 5*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture5} alt="picture 5" />
                             </div>
                             {/*Picture 6*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture6} alt="picture 6" />
                             </div>
                             {/*Picture 7*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture7} alt="picture 7" />
                             </div>
                             {/*Picture 8*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture8} alt="picture 8" />
                             </div>
                             {/*Picture 9*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture9} alt="picture 9" />
                             </div>
                             {/*Picture 10*/}
                             <div className="carousel-item h-full">
-                                <img src={Image3} alt="picture 3" />
+                                <img src={Picture10} alt="picture 10" />
                             </div>
-
                         </div>
 
                     </div>
